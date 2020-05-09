@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheather dashboard</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+      
+</head>
+
+<body>
+
+<div class = "title">
+    <h2 class = "text-center"> weather dashboard</h2>
+</div>
+<div class= "container">
+    <div class= "row" style="margin-bottom:20px;">  
+        <h3 class ="search">search for a city </h3>
+    </div>   
+    <div class = "row form-group form-inline" id="rowDiv">
+        <div class="col-sm-4"> 
+            <div class="card">  
+                <input type="text" id="city"class="form-control" placeholder="City name">
+                <button id="submit" class="btn btn-primary">Search City</button>
+            </div>
+        </div>
+    </div>
+    <ul class="list-group cities col-sm-4">
+    </ul>
+</div>
+
+    <div class="col-md-8"> 
+        <div class="card">
+            <div class="show card-text"> current weather data
+                    <div class= "row"></div>
+            </div>
+        </div>
+    </div>
+
+  
+
+    <div class = "row form-group form-inline" id="forcast-div">
+        <div class="col-sm-3"> 
+            <div class="card forcast">
+              <p>this is where the forcast info will go </p>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="script.js"></script>
+    
+</body>
+</html>
